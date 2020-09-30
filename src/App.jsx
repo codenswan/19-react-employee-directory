@@ -47,16 +47,19 @@ export default function App() {
         row.Country.toLowerCase().indexOf(userInput) > -1
     ) 
 
-    if (sortColumn === "Username") {
+    if (sortColumn === "Name") {
       searchResults.sort((a, b) => {
         return a.Name < b.Name ? -1 : 1;
       });
+    } else if (sortColumn === "Username") {
+      searchResults.sort((a, b) => {
+        return a.Username < b.Username ? -1 : 1;
+      })
     }
     return searchResults;
   }
 
   function onColumnClick(heading) {
-    console.log(heading);
     setSortColumn(heading)
   }
 
