@@ -27,7 +27,7 @@ Then run:
 
 ## Usage:
 This app displays a list of staff and allows interaction with the data. The user can search for staff based on the name, username, email, city or country. The data can also be sorted alphabetically by name and username.
-<img src="public/images/Screen%20Shot%202020-09-30%20at%208.44.23%20pm.png" width="650"/>
+<img src="public/Screen%20Shot%202020-09-30%20at%208.44.23%20pm.png" width="650"/>
 
 ## Dependencies:
 * axios: 0.20.0,
