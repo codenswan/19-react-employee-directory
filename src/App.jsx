@@ -15,6 +15,7 @@ export default function App() {
     API.search()
       .then((response) => {
         setStaffList(response.data.results);
+        console.log(staffList);
         let formattedStaff = response.data.results.map((staff) => {
           return {
             Photo: staff.picture.medium,
