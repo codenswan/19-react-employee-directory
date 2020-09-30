@@ -1,5 +1,5 @@
 # 19-React Staff Directory
-This project was developed by [codenswan](https://github.com/codenswan). You can find it on [codenswan.github.io/19-react-employee-directory/](https://codenswan.github.io/19-react-employee-directory/)&nbsp;  
+This project was developed by [codenswan](https://github.com/codenswan). You can find it at [codenswan.github.io/19-react-employee-directory/](https://codenswan.github.io/19-react-employee-directory/)&nbsp;  
 
 ---
 
@@ -26,7 +26,8 @@ Then run:
     npm start
 
 ## Usage:
-This app displays a list of staff and allows interaction with the data. The user can search for staff based on the name, username, email, city or country. The data can also be sorted alphabetically by name and username.
+This app displays a list of staff and allows interaction with the data. The user can search for staff based on the name, username, email, city or country. The data can also be sorted alphabetically by name and username.&nbsp;
+
 <img src="public/Screen%20Shot%202020-09-30%20at%208.44.23%20pm.png" width="1050"/>
 
 ## Dependencies:
