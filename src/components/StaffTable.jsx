@@ -5,7 +5,11 @@ export default function StaffTable(props) {
   let headings = [];
   if (props.staffList && props.staffList.length > 0) {
     headings = Object.keys(props.staffList[0]).map((heading) => {
-      return <th key={heading}>{heading}</th>;
+      return (
+        <th onClick={() => props.onColumnClick(heading)} key={heading}>
+          {heading}
+        </th>
+      );
     });
   }
 
@@ -35,7 +39,14 @@ export default function StaffTable(props) {
     <Container>
       <Table striped bordered hover>
         <thead>
-          <tr>{headings}</tr>
+          <tr >
+            {headings}
+            {/* {props.headers.map((heading) => (
+              <th onClick={()=> props.onColumnClick(heading)} key={heading}>
+                {heading}
+              </th>
+            ))} */}
+          </tr>
         </thead>
         <tbody>{rows}</tbody>
       </Table>
